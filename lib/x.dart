@@ -41,6 +41,7 @@ class XState extends State<X> {
         currentQuestionIndex = 0;
         selectedAnswers = [];
         activeScreen = StartScreen(switchScreen);
+        summary = [];
       },
     );
   }
